@@ -1,0 +1,39 @@
+Describe of the yearly rent by use
+              retail    industrial         office    residential
+count  152205.000000  94493.000000  152259.000000  153228.000000
+mean       23.937128      8.550792      21.294403      21.146986
+std         3.559195      1.651859       2.997322       6.379351
+min        18.000000      6.000000      16.000000       1.250000
+25%        21.000000      7.000000      19.000000      17.600000
+50%        22.000000      8.000000      20.000000      20.250000
+75%        28.000000     10.000000      24.000000      24.100000
+max        35.000000     14.500000      30.500000      44.200000
+Computing feasibility for form retail
+Computing feasibility for form industrial
+Computing feasibility for form office
+Computing feasibility for form residential
+Computing feasibility for form mixedresidential
+Computing feasibility for form mixedoffice
+Time to execute step 'feasibility': 1.12 s
+Running step 'residential_developer'
+Number of agents: 441,066
+Number of agent spaces: 473,706
+Current vacancy = 0.07
+Target vacancy = 0.15, target of new units = 45,195
+2,238 feasible buildings before running developer
+Sum of net units that are profitable: 8,407
+WARNING THERE WERE NOT ENOUGH PROFITABLE UNITS TO MATCH DEMAND
+Adding 858 buildings with 9,593 residential_units
+1,380 feasible buildings after running developer
+Time to execute step 'residential_developer': 0.09 s
+Running step 'non_residential_developer'
+Number of agents: 287,724
+Number of agent spaces: 642,004
+Current vacancy = 0.55
+Target vacancy = 0.15, target of new units = 0
+1,380 feasible buildings before running developer
+Sum of net units that are profitable: 81,050
+Adding 0 buildings with 0 job_spaces
+1,380 feasible buildings after running developer
+Time to execute step 'non_residential_developer': 0.17 s
+Total time to execute iteration 1 with iteration value 2010: 3.75 s
